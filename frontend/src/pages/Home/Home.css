@@ -92,7 +92,19 @@ h1{
   font-weight: bold;
   font-family: Arial, sans-serif;
 }
-    
+
+.header-paragraph {
+  position: absolute;
+  top: 65%; /* Position the text in the center of the header container */
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the text using translate */
+  color: white;
+  text-align: center;
+  font-size: 1.2rem; /* Set font size to 1.2rem */
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+
 .site-layout-content {
   min-height: 280px;
   padding: 24px;

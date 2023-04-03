@@ -1,13 +1,18 @@
 .logo {
-    float: left;
+    float: none;
     height: 50px;
     margin-top: 10px;
     margin-right: 30px;
-    display: inline-block;
+    display: flex;
+    justify-content: flex-end !important;
 }
 span{
     font-family: Tiempos Headline, serif;
 }
+.ant-menu-horizontal {
+    display: flex;
+    justify-content: flex-end;
+  }  
 .ant-layout-header,
 .ant-menu-overflow{
     background-color: #eae8e1;

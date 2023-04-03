@@ -10,7 +10,8 @@ export const Home = () => {
         <div>
             <div className="header-container">
         
-        <div className="header-text">Your Header Text</div>
+        <div className="header-text">StädFint AB </div>
+        <p className="header-paragraph">"Låt proffisionella göra det smutsiga arbetet så du kan njuta av en stressfri vardag"</p>
       </div>
             <hr />
             <h1>Vad kan vi hjälpa dig med?</h1>
